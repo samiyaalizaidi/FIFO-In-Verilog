@@ -15,3 +15,7 @@
 - Output Data: 8 bits 
 - Full: 1-bit signal generated when the FIFO is full. 
 - Empty: 1-bit signal generated when the FIFO is empty.
+
+### Internal Signals
+- Read Pointer: a 5-bit wire to keep track of the FIFO's index that has to be read
+- Write Pointer: a 5-bit wire to keep track of the FIFO's index where the data should be written
